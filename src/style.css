@@ -1,0 +1,270 @@
+.encripta {
+  font-family: text-security-disc;
+  /* Use -webkit-text-security if the browser supports it */
+  -webkit-text-security: disc;
+}
+
+#text1 {
+
+    position: absolute;
+left: 9.12%;
+right: 87.38%;
+top: 29.38%;
+bottom: 68.44%;
+
+background: #C4C4C4;
+
+   
+    
+}
+#text2 {
+
+  position: absolute;
+  left: 13.31%;
+  right: 83.19%;
+  top: 29.38%;
+  bottom: 68.44%;
+
+  background: #C4C4C4;
+}
+
+ #text3 {
+
+      position: absolute;
+      left: 17.5%;
+      right: 79%;
+      top: 29.38%;
+      bottom: 68.44%;
+
+      background: #C4C4C4;
+}
+#text4 {
+
+ /* Rectangle 4 */
+
+position: absolute;
+left: 21.69%;
+right: 74.81%;
+top: 29.38%;
+bottom: 68.44%;
+
+
+background: #C4C4C4;
+
+
+}
+#card
+{
+  position: absolute;
+  left: 3%;
+  right: 76.44%;
+  top: 23.21%;
+  bottom: 71.77%;
+
+  font-family: Adamina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 100px;
+  /* or 415% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+
+}
+
+#button1
+{
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+left: 6.06%;
+right: 71.69%;
+top: 36.15%;
+bottom: 52.4%;
+
+/* Piccolo/100 */
+background: #4E46B4;
+border-radius: 240.69px;
+
+
+/* Button */
+
+position: static;
+display: none;
+width: 159px;
+height: 100px;
+left: 66.48px;
+top: 6.98px;
+
+/* UI Type/text-md/[S] */
+font-family: Averta Std;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 24px;
+/* or 171% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+left: 6.06%;
+right: 71.69%;
+top: 36.15%;
+bottom: 52.4%;
+
+/* Piccolo/100 */
+
+background: #4E46B4;
+border-radius: 240.69px;
+
+}
+
+#h1_free
+{
+  position: absolute;
+  left: 5%;
+  right: 26.31%;
+  top: 47.92%;
+  bottom: -5.42%;
+
+  font-family: Abyssinica SIL;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 140px;
+  line-height: 148px;
+  /* or 106% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+
+  color: #000000;
+
+}
+
+#card1
+{
+  position: absolute;
+  left: 35.94%;
+  right: 36%;
+  top: 5.73%;
+  bottom: 70.62%;
+
+  background-blend-mode: darken;
+
+}
+
+#moon
+{
+  /* Ellipse 5 */
+
+position: absolute;
+left: 48.25%;
+right: -4%;
+top: 13.23%;
+bottom: -6.15%;
+
+background: radial-gradient(76.52% 76.52% at 34.6% 23.48%, #000000 0%, rgba(0, 0, 0, 0) 100%);
+mix-blend-mode: overlay;
+opacity: 0.7;
+
+/* Ellipse 4 */
+
+position: absolute;
+left: 48.25%;
+right: -4%;
+top: 13.23%;
+bottom: -6.15%;
+
+background: radial-gradient(76.52% 76.52% at 34.6% 23.48%, #FFFFFF 0%, rgba(196, 196, 196, 0) 100%);
+mix-blend-mode: overlay;
+opacity: 0.56;
+
+/* Mask Group */
+
+position: absolute;
+left: 48.25%;
+right: -4%;
+top: 13.23%;
+bottom: -6.15%;
+
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 48.25%;
+right: -4%;
+top: 13.23%;
+bottom: -6.15%;
+
+background: #C4C4C4;
+
+
+/* moon_PNG36 1 */
+
+position: absolute;
+left: 34.38%;
+right: -21.18%;
+top: 6.8%;
+bottom: -15.33%;
+
+background: url(moon_PNG36.png);
+
+/* Group 8 */
+
+
+position: absolute;
+left: 45.5%;
+right: -4%;
+top: 13.23%;
+bottom: -10.02%;
+
+/* Group 6 */
+
+
+position: absolute;
+left: 48.25%;
+right: -4%;
+top: 13.23%;
+bottom: -6.15%;
+
+/* Mask Group */
+
+
+position: absolute;
+left: 48.25%;
+right: -4%;
+top: 13.23%;
+bottom: -6.15%;
+
+
+}
+
+

@@ -6,9 +6,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <link href="node_modules/text-security/text-security.css" rel="stylesheet" type="text/css">
+    </header>
     <main>
-      Prueba
+      <h2 id= "card">Card Number</h2>
+      <input type = "number" maxlength ="4" class="encripta" onkeyup="if (this.value.length == this.getAttribute('maxlength')) text2.focus()" id= "text1" class="texto" required>
+      <input type = "number" maxlength ="4" class="encripta" onkeyup="if (this.value.length == this.getAttribute('maxlength')) text3.focus()" id= "text2" class="texto" required>
+      <input type = "number" maxlength ="4" class="encripta" onkeyup="if (this.value.length == this.getAttribute('maxlength')) text4.focus()" id= "text3" class="texto" required>
+      <input type = "number" maxlength ="4" onkeyup="if (this.value.length == this.getAttribute('maxlength')) button1.focus()" id= "text4" class="texto" required>
+      <input type = "submit" id= "button1" value="Depositar" >
+      <h1 id= "h1_free">Free Money</h2>
+      <img src="moon.png" id= "moon">
+      <img src="card.png" id= "card1">
+
+
     </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
